@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10ca0979-ec25-4c82-9bba-f59d51558515" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph_pie/draw_pie_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/still_picture/draw_histogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_pie/draw_pie_chart.py" beforeDir="false" afterPath="$PROJECT_DIR$/still_picture/draw_pie_chart.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Data_Visualization$draw_pie_chart__1_.coverage" NAME="draw_pie_chart (1) Coverage Results" MODIFIED="1543825974330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/still_picture" />
     <SUITE FILE_PATH="coverage/Data_Visualization$draw_pie_chart.coverage" NAME="draw_pie_chart Coverage Results" MODIFIED="1543825581737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph_pie" />
+    <SUITE FILE_PATH="coverage/Data_Visualization$draw_histogram.coverage" NAME="draw_histogram Coverage Results" MODIFIED="1543829100998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/still_picture" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -22,11 +25,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="draw_pie_chart.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graph_pie/draw_pie_chart.py">
+      <file leaf-file-name="draw_histogram.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/still_picture/draw_histogram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="259">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw_pie_chart.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/still_picture/draw_pie_chart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
                 <element signature="e#17#36#0" expanded="true" />
               </folding>
@@ -50,6 +65,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/graph_pie/draw_pie_chart.py" />
+        <option value="$PROJECT_DIR$/graph_pie/draw_histogram.py" />
+        <option value="$PROJECT_DIR$/still_picture/draw_histogram.py" />
       </list>
     </option>
   </component>
@@ -83,7 +100,7 @@
             <path>
               <item name="Data-Visualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="graph_pie" type="462c0819:PsiDirectoryNode" />
+              <item name="still_picture" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -109,7 +126,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.draw_histogram">
+    <configuration name="draw_histogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data-Visualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/still_picture" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/still_picture/draw_histogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="draw_pie_chart (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data-Visualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/still_picture" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/still_picture/draw_pie_chart.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="draw_pie_chart" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data-Visualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,8 +184,15 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.draw_pie_chart" />
+      <item itemvalue="Python.draw_pie_chart (1)" />
+      <item itemvalue="Python.draw_histogram" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.draw_histogram" />
+        <item itemvalue="Python.draw_pie_chart (1)" />
         <item itemvalue="Python.draw_pie_chart" />
       </list>
     </recent_temporary>
@@ -155,10 +217,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3292683" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
@@ -185,12 +247,22 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_pie/draw_pie_chart.py">
+    <entry file="file://$PROJECT_DIR$/still_picture/draw_pie_chart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="57">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
             <element signature="e#17#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/still_picture/draw_histogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
